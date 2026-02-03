@@ -1,0 +1,135 @@
+<!-- 📘 Ledger -->
+A ledger is a record book of all transactions.
+
+In blockchain, the ledger is digital
+
+It is shared across all nodes
+
+It is immutable (can’t be changed)
+
+👉 Example:
+If Alice sends money to Bob, that transaction is written in the ledger and copied to every node.
+
+💡 Difference from bank ledger:
+
+Bank → centralized
+
+Blockchain → decentralized
+
+
+<!-- 🌱 Genesis Block -->
+
+The genesis block is the first block of a blockchain.
+
+Block number: 0
+
+Has no previous hash
+
+Starting point of the entire chain
+
+👉 Every blockchain starts from the genesis block.
+
+Fun fact 😄
+The Bitcoin genesis block contains a hidden newspaper headline.
+
+
+
+<!-- 🧱 Block -->
+
+A block is a container of data.
+
+Each block contains:
+
+Transaction data
+
+Timestamp
+
+Hash of the block
+
+Hash of previous block
+
+Blocks are linked together to form the blockchain.
+
+
+
+
+
+<!-- 🔑 Hash -->
+
+A hash is a fixed-length encrypted value.
+
+Generated using a hash function
+
+Even a tiny change in data → completely different hash
+
+Used to secure and link blocks
+
+Think of it as a digital fingerprint.
+
+
+
+
+<!-- 🔗 Previous Hash -->
+
+Each block stores the hash of the previous block
+
+This creates the chain
+
+If one block is altered → chain breaks ❌
+
+This is what makes blockchain tamper-proof.
+
+
+
+
+
+<!-- 🖥️ Node -->
+
+A node is a computer connected to the blockchain network.
+
+Stores a copy of the ledger
+
+Verifies transactions
+
+Maintains decentralization
+
+More nodes = more security.
+
+
+
+
+<!-- 🤝 Consensus -->
+
+Consensus is how nodes agree on which transactions are valid.
+
+Common mechanisms:
+
+Proof of Work
+
+Proof of Stake
+
+Without consensus → no trust.
+
+
+
+
+
+<!-- ⛏️ Mining / Validation -->
+
+Mining → creating new blocks (PoW)
+
+Validation → approving transactions (PoS)
+
+Reward is usually given in cryptocurrency.
+
+
+
+
+
+<!-- 📜 Smart Contract -->
+
+A smart contract is a self-executing program on the blockchain.
+
+Runs automatically when conditions are met
+
+No middleman needed
